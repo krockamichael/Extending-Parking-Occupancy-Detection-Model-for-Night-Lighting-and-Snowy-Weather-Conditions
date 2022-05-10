@@ -1,5 +1,5 @@
+import pandas as pd
 import cv2
-import pandas
 import os
 
 
@@ -8,7 +8,7 @@ root_dir = '/mnt/c/Users/krock/Desktop/SvJur'
 for dir in os.listdir(root_dir):
     if len(os.listdir(os.path.join(root_dir, dir, 'segmented'))) != 0:
         continue
-    df = pandas.read_csv(os.path.join(root_dir, dir, '_' + dir + '_segmentation_mask.csv'))
+    df = pd.read_csv(os.path.join(root_dir, dir, '_' + dir + '_segmentation_mask.csv'))
     for filename in os.listdir(os.path.join(root_dir, dir, 'resized')):
         if filename[0].isdigit():
             img = cv2.imread(os.path.join(root_dir, dir, 'resized', filename))

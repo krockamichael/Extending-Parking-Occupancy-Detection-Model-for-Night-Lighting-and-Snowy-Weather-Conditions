@@ -1,4 +1,4 @@
-# DP
+# Extending Parking Occupancy Detection Model for Night Lighting and Snowy Weather Conditions
 Author: Bc. Michael Kročka
 
 Car parks today are usually monitored by camera systems in conjunction with ground or thermal sensors, in some cases a single person can be enough to monitor a small parking lot. In other cases, where the car parks are bigger and such options are not possible or would be very costly, new solutions are taken into consideration. One such solution is the use of an already in place commercial camera system, which would be enhanced by neural networks which can be trained for parking space classification in real-time. The solution would have to be low-cost to deploy and possibly maintain, reliable, and easy to use.
