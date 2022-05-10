@@ -5,7 +5,8 @@ Car parks today are usually monitored by camera systems in conjunction with grou
 
 This diploma thesis deals with the problem of parking lot monitoring, classification of parking spaces as empty or occupied, and the automatic detection of license plate registration numbers using deep learning techniques. The process of identifying a parking space as occupied or empty would start with the segmentation of each parking space, then would continue with object detection within an isolated segment, and lastly, the process for identification of the license plate would start. This process consists of detecting the license plate, segmenting each character, and identifying it.
 
+
 1. Creation of new dataset - SvJur
-2. Transfer learning of mAlexNet using SvJur, PKLot, CNRParkAB-EXT
+2. Transfer learning of mAlexNet using SvJur, PKLot, CNRParkAB, CNRParkEXT
 3. License plate detection & recognition pipeline
-4. Raspberry Pi smart camera web server
+4. Raspberry Pi smart camera web application
