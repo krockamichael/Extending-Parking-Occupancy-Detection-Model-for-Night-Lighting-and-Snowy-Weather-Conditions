@@ -1,3 +1,6 @@
 [submodule "FlaskWebApp"]
 	path = FlaskWebApp
 	url = https://github.com/krockamichael/FlaskWebApp.git
+[submodule "SvJur_occupancy_dataset"]
+	path = SvJur_occupancy_dataset
+	url = https://github.com/krockamichael/SvJur_occupancy_dataset.git
